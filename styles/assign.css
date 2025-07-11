@@ -98,12 +98,12 @@ section p{
 /* section users style */
 .users{
     border-radius: 24px;
-    max-width: 1140px;
+    width: 1140px;
     margin: 0 auto;
     margin-top: 140px;
     /* height: 306px; */
     text-align:center;
-    padding: 50px 100px;
+    padding: 30px 20px;
     background-color: #deeaf3;
     
 }
@@ -140,6 +140,8 @@ section p{
 .comment-container{
     display: flex;
     justify-content: space-around;
+    /* width: 1140px; */
+    /* margin: 0 auto; */
     
 }
 .comment-title{
@@ -151,7 +153,7 @@ section p{
     font-weight: 400px;
 }
 .comments{
-    margin-right: 20px;
+    margin-right: 50px;
     background-color: #f9ffff;
     border-radius: 14px;
     text-align: left;
