@@ -28,7 +28,7 @@
 /* header */
 .header{
     background-image: url('../Assets/Hero-bg.png');
-    width: 100%;;
+    width: 100%;
     height: 698px;
    
 }
@@ -57,3 +57,35 @@ div h1{
     font-size: 60px;
     color: #252432;
 }
+/* main section style */
+.action{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 90px;
+
+}
+.section-action{
+    width: 517px;
+}
+
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+section p{
+    font-size: 24px;
+    font-weight:400;
+    color: #252432;
+}
+.action-pic{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+
+
+
+
