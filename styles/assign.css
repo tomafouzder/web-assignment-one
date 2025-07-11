@@ -25,6 +25,9 @@
     border-radius: 10px;
     border: none;
 }
+.secondary-bg{
+    background-color: #e5e4ec;
+}
 /* header */
 .header{
     background-image: url('../Assets/Hero-bg.png');
@@ -84,6 +87,41 @@ section p{
     border-radius: 48px;
     width: 403px;
     height: 328px;
+}
+/* section users style */
+.users{
+    border-radius: 24px;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 140px;
+    /* height: 306px; */
+    text-align:center;
+    padding: 50px 100px;
+    
+}
+.users-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0px;
+   
+}
+.users-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.item-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+.item-description{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #4e4e4e;
 }
 
 
