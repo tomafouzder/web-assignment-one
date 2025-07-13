@@ -196,6 +196,43 @@ div ul li{
     margin-top: 20px;
     margin-bottom: 70px;
 }
+/* footer style */
+.form{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 80px;
+    list-style: none;
+}
+.form-title{
+     font-size: 97px;
+    font-weight: bold;
+    gap: 150px;
+    padding: 90px; 
+    
+}
+
+footer input[type=text],  footer input[type="email"], footer textarea{
+    height: 40px;
+    width: 490px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 32px;
+    font-size: 20px;
+    border-color: rgb(230, 234, 235);
+    box-shadow:0px 0px 1px 1px;
+
+}
+footer form p{
+    font-size: 25px;
+    font-weight:600px;
+}
+footer li{
+    margin-bottom: 20px;
+}
+
+
 
 
 
